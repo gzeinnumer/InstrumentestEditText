@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".ButtonActivity">
+
+    <Button
+        android:id="@+id/btn_toast"
+        android:layout_width="300dp"
+        android:visibility="visible"
+        tools:visibility="visible"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_show_toast" />
+
+    <Button
+        android:id="@+id/btn_snackbar"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_show_snackbar" />
+
+    <Button
+        android:id="@+id/btn_dialog"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_show_dialog" />
+
+</LinearLayout>

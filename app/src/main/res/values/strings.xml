@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">InstrumentestEditText</string>
+
+    <string name="btn_show_toast">Show Toast</string>
+    <string name="btn_show_snackbar">Show Snackbar</string>
+    <string name="btn_show_dialog">Show Dialog</string>
+    <string name="btn_show_edit_activity">Open Edit Activity</string>
+
+    <string name="hint_edit_text_name">What\'s your name ?</string>
+    <string name="btn_enter">Enter</string>
+</resources>
